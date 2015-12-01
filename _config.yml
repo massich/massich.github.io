@@ -16,14 +16,29 @@ defaults:
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  avatar: sik2
+  name: Joan Massich
+  # email: dbyll@ismaildemirbilek.com
+  github: massich
+  twitter: jmassich
+  google_scholar: cqqokIYAAAAJ
+  # pinterest: asd123
+  # linkedin: asd123
+  bio: what you want me to tell?
+  # email_md5: 726351295ec82e145928582f595aa3aa
+
+# description: El raco den sik al web
+#   author: SiK
+#   avatar: sik2
+#   name: Joan Massich (SiK)
+#   email: 
+#   github: massich
+#   twitter: jmassich
+#   google_scholar: cqqokIYAAAAJ
+#   # pinterest: asd123
+#   # linkedin: asd123
+#   bio: what you want me to tell?
+#   # email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
 categories_path: categories.html
