@@ -1,47 +1,53 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site wide configuration
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: pygments
-markdown: kramdown
+title: Cansik
+description: "That's what I call home"
+logo: 120x120.gif
+teaser: 400x250.gif
+locale: en_US
+# url: //mmistakes.github.io/skinny-bones-jekyll
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
 
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: dbyll
+# Octopress configuration
 
-description: Stylish Jekyll Theme
-author:
-  avatar: sik2
-  name: Joan Massich
-  # email: dbyll@ismaildemirbilek.com
-  github: massich
-  twitter: jmassich
-  google_scholar: cqqokIYAAAAJ
-  # pinterest: asd123
-  # linkedin: asd123
-  bio: what you want me to tell?
-  # email_md5: 726351295ec82e145928582f595aa3aa
+# Default extensions
+post_ext: md
+page_ext: md
 
-# description: El raco den sik al web
-#   author: SiK
-#   avatar: sik2
-#   name: Joan Massich (SiK)
-#   email: 
-#   github: massich
-#   twitter: jmassich
-#   google_scholar: cqqokIYAAAAJ
-#   # pinterest: asd123
-#   # linkedin: asd123
-#   bio: what you want me to tell?
-#   # email_md5: 726351295ec82e145928582f595aa3aa
+# Found in _templates/
+post_layout: article
+page_layout: article
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+# Format titles with titlecase?
+titlecase: true
 
-BASE_PATH:
+
+# Site owner
+owner:
+  name: Michael Rose
+  web: http://mademistakes.com
+  email: michael@mademistakes.com
+  twitter: mmistakes
+  bio: "Just another boring, tattooed, time traveling designer."
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  google:
+    plus: +MichaelRoseDesign
+    ad-client: ca-pub-7328585512091257
+    ad-slot: 3049671934
+  disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
