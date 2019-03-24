@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: wood-texture-1600x800.jpg
+  feature: sik-rotation-tree-1500x500.jpg
 ---
 
 <div class="tiles">
