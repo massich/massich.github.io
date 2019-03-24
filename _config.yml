@@ -37,17 +37,18 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Michael Rose
-  web: http://mademistakes.com
-  email: michael@mademistakes.com
-  twitter: mmistakes
-  bio: "Just another boring, tattooed, time traveling designer."
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  google:
-    plus: +MichaelRoseDesign
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 3049671934
-  disqus-shortname:
+  name: Joan Massich
+  web: http://massich.cat
+  email: mailsik@gmail.com
+  twitter: jmassich
+  github: massich
+  bio: "I learn, code, swim and run from time to time."
+  # avatar: bio-photo.jpg # 160x160 px image for author byline
+  # google:
+  #   plus: +MichaelRoseDesign
+  #   ad-client: ca-pub-7328585512091257
+  #   ad-slot: 3049671934
+  # disqus-shortname:
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
