@@ -45,34 +45,31 @@
     {% endif %}
 
     <div id="page-wrapper">
-      <p>
-        I am a research engineer in the Parietal team at INRIA-Saclay working on human
-        neuro-physiological data and machine learning. Contributing to
-        open-source projects like: MNE-Python, OpenMEEG, scikit-learn, and others.
-      </p>
-
-      <p>
-        I obtained my PhD in computer vision applied to medical imaging, jointly from the
-        Universitat de Girona and the Universite de Bourgogne France-Comte in 2013.
-        After my PhD and before coming to Parietal as an engineer I was a postdoctoral
-        fellow and teaching assistant at Universite de Bourgogne France-Comte.
-      </p>
-
-      <p>
-        I enjoy following technology trends, learning new skills, and sharing them.
-        I also care about pedagogy and education as I strongly believe that any skill
-        can be acquired by anyone with ease if transferred properly.
-        This is why I have been involved in organizing pedagogical activities such as
-        underwater robotics workshops for kids and enthusiasts, First LEGO League
-        competitions, and lately software carpentry workshops.
-      </p>
-    </div>
-
-    <div id="page-wrapper">
       {% include browser-upgrade.html %}
 
       <div id="main" role="main">
         <div class="wrap">
+            <p>
+              I am a research engineer in the Parietal team at INRIA-Saclay working on human
+              neuro-physiological data and machine learning. Contributing to
+              open-source projects like: MNE-Python, OpenMEEG, scikit-learn, and others.
+            </p>
+
+            <p>
+              I obtained my PhD in computer vision applied to medical imaging, jointly from the
+              Universitat de Girona and the Universite de Bourgogne France-Comte in 2013.
+              After my PhD and before coming to Parietal as an engineer I was a postdoctoral
+              fellow and teaching assistant at Universite de Bourgogne France-Comte.
+            </p>
+
+            <p>
+              I enjoy following technology trends, learning new skills, and sharing them.
+              I also care about pedagogy and education as I strongly believe that any skill
+              can be acquired by anyone with ease if transferred properly.
+              This is why I have been involved in organizing pedagogical activities such as
+              underwater robotics workshops for kids and enthusiasts, First LEGO League
+              competitions, and lately software carpentry workshops.
+            </p>
           <div class="page-title">
             <h1>{{ page.title }}</h1>
             {% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
@@ -85,7 +82,7 @@
         </div><!-- /.wrap -->
       </div><!-- /#main -->
 
-      <!-- {% include footer.html %} -->
+      {% include footer.html %}
     </div>
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
